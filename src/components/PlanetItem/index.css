@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  height: 350px;
+  width: 550px;
+  transition: 1.5 0.5 ease-in;
+}
+
+.image:hover {
+  transform: rotateX(180);
+  transition: all;
+}
+
+.heading {
+  color: aqua;
+  font-size: 40px;
+  font-family: 'cursive';
+  font-weight: bolder;
+  text-align: center;
+}
+
+.heading:hover {
+  color: lightgoldenrodyellow;
+}
+
+.description {
+  color: aqua;
+  font-size: 20px;
+  font-family: 'cursive';
+  font-weight: 900;
+  text-align: center;
+  transition: 0.5 1 ease-in;
+}
+
+.description:hover {
+  transition: all;
+}
